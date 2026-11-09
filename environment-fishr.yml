@@ -1,0 +1,16 @@
+# Ambiente do repo oficial do Fishr (external/fishr). Versões antigas, por isso é à parte.
+# Confirmar contra external/fishr/README.md (Python 3.7.10, torch 1.8.1, backpack 1.3.0).
+name: fishr
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.10
+  - pip
+  - pip:
+      - torch==1.8.1
+      - torchvision==0.9.1
+      - backpack-for-pytorch==1.3.0
+      - numpy
+      - pandas

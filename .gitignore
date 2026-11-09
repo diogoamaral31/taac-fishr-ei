@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# --- TAAC Fishr-EI ---
+data/*
+!data/.gitkeep
+external/*
+!external/.gitkeep
+*.pt
+*.npy
